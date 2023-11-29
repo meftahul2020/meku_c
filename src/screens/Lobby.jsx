@@ -33,9 +33,9 @@ const LobbyScreen = () => {
   }, [socket, handleJoinRoom]);
 
   return (
-    <div>
-      <h4>Hello!</h4>
-      <h2>Welcome to meku's room</h2>
+    <div style={{ backgroundColor: 'lightblue' }}>
+      <h1>Hello!</h1>
+      <h3>Welcome to meku's room</h3>
       <form onSubmit={handleSubmitForm}>
         <label htmlFor="email">Email ID</label>
         <input
