@@ -9,7 +9,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = (props) => {
-  const socket = useMemo(() => io(process.env.REACT_APP_URL), []);
+  const socket = useMemo(() => io("https://wave-faceted-macadamia.glitch.me"), []);
 
   return (
     <SocketContext.Provider value={socket}>
