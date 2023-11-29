@@ -34,7 +34,8 @@ const LobbyScreen = () => {
 
   return (
     <div>
-      <h1>Lobby</h1>
+      <h4>Hello!</h4>
+      <h2>Welcome to meku's room</h2>
       <form onSubmit={handleSubmitForm}>
         <label htmlFor="email">Email ID</label>
         <input
