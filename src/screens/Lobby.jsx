@@ -44,7 +44,7 @@ const LobbyScreen = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <br />
-        <label htmlFor="room">Room</label>
+        <label htmlFor="room">Room Code</label>
         <input
           type="text"
           id="room"
