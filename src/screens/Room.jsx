@@ -11,7 +11,7 @@ const RoomPage = () => {
 
   const handleUserJoined = useCallback(({ email, id }) => {
     console.log(`Email ${email} joined room`);
-    setRemoteSocketId(id);
+    setRemoteSocketId(email);
   }, []);
 
   const handleCallUser = useCallback(async () => {
